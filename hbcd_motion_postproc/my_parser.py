@@ -5,7 +5,7 @@ import argparse
 def build_parser():
     # Configure the commands that can be fed to the command line
     help_msg = """Data files (.tsv) in `bids_dir` will be analyzed and \
-    the outputs are stored in `output_dir. `participant_label` and `session_id` \
+    the outputs are stored in `output_dir`. `participant_label` and `session_id` \
     can be provided to process specific participant / session data.
     """
     parser = argparse.ArgumentParser(description=help_msg,
